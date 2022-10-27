@@ -1,0 +1,6 @@
+data <- read.csv("House_Rent_Dataset.csv")
+summary(data)
+unique(data$Furnishing.Status)
+unique(data$Area.Type)
+unique(data$City)
+unique(data$Point.of.Contact)
